@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 Read more https://pypi.org/project/python-decouple/
 ```
-mkdir .env
+create file called .env inside your settings folder then add    SECRET_KEYS
 
 ```
 

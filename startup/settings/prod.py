@@ -4,12 +4,10 @@ from decouple import config
 
 SECRET_KEY = config('SECRET_KEY')
 
-
-ALLOWED_HOSTS = ['localhost']
-
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
+
 
 INSTALLED_APPS += [
     # 'django.contrib.postgres',
@@ -45,10 +43,10 @@ DATABASES = {
     }
 }
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST_USER = 'shaamareer0@gmail.com'
+# EMAIL_HOST_USER = ''
 # EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_USE_TLS = True
-# EMAIL_HOST_PASSWORD = 'Madhoore123'
+# EMAIL_HOST_PASSWORD = ''
 # EMAIL_PORT = 587
 
 # Password validation
@@ -74,9 +72,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # CLOUDINARY_STORAGE = {
-#     'CLOUD_NAME': 'kaabe',
-#     'API_KEY': '158618637359113',
-#     'API_SECRET': 'asEA80ABQNCZJsCzFVOJJDz4WIo'
+#     'CLOUD_NAME': '',
+#     'API_KEY': '',
+#     'API_SECRET': ''
 # }
 
 
