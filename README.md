@@ -1,4 +1,4 @@
-# Django Quick Startup Templete
+# Django Quick Startup Templete Easy To Use
 
 
 #### To Clone, you have to rename to your project name
